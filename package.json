@@ -1,0 +1,17 @@
+{
+    "name": "parserresume",
+    "version": "1.0.0",
+    "main": "server.mjs",
+    "type": "module",
+    "scripts": {
+        "start": "node server.mjs"
+    },
+    "dependencies": {
+        "@google/generative-ai": "^0.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "multer": "^1.4.3",
+        "node-fetch": "^3.0.0",
+        "pdf-parse": "^1.1.1"
+    }
+}
